@@ -12,7 +12,6 @@ public class ExceptionController {
 	
 	@GetMapping(value = "/hi")
 	public String greet(){
-		System.out.println("hello");
 		return "Hello..";
 	}
 
