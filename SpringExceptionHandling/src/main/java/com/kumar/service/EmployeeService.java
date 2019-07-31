@@ -16,10 +16,12 @@ public class EmployeeService
     
     @PostConstruct
     void initialize() {
-        Employee emp1 = new Employee("John", 11);
-        Employee emp2 = new Employee("James", 22);
-        employeeMap.put("John", emp1);
-        employeeMap.put("James", emp2);
+    	Employee emp0 = new Employee("rakesh", 25);
+        Employee emp1 = new Employee("vinoba bhave", 1992);
+        Employee emp2 = new Employee("mahto", 103);
+        employeeMap.put("rakesh", emp0);
+        employeeMap.put("hazaribag", emp1);
+        employeeMap.put("mahto", emp2);
     }
     
     public Employee getEmployee (String name) throws Exception
